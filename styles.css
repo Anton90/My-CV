@@ -1,3 +1,11 @@
 * {
   border: 1px solid black;
 }
+
+.general {
+	background-color: lightblue;
+}
+
+ul {
+	list-style: none;
+}
