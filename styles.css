@@ -1,5 +1,4 @@
 * {
-  border: 0px solid black;
   font-family: sans-serif;
 }
 
@@ -9,23 +8,6 @@
 	grid-template-rows: 1fr 2fr 1fr;
 	grid-gap: 20px;
 	padding: 50px;
-}
-
-@media only screen and (max-width: 700px) {
-	.container { 
-		display: flex;
-		flex-direction: column;
-	}
-
-	.fa-square {
-	display: inline-block;
-	margin: auto;
-	}
-
-	.general {
-		display: flex;
-		flex-wrap: wrap;
-	}
 }
 
 .general {
@@ -82,4 +64,27 @@ ul {
 	color: #67A7DF;
 	float: right;
 	padding-left: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+	.container { 
+		display: flex;
+		flex-direction: column;
+	}
+
+	.fa-square {
+	display: inline-block;
+	margin: auto;
+	}
+
+	.general {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.skills {
+		border-bottom: 1px solid #67A7DF;
+		border-right: none;
+		padding-bottom: 15px;
+	}
 }
