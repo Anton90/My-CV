@@ -58,3 +58,7 @@ ul {
 	list-style-type: circle; 
 }
 
+.fa-square {
+	color: #67A7DF;
+	float: right;
+}
